@@ -49,7 +49,7 @@ function Header({placeholder}) {
             <div className='relative flex items-center h-10 cursor-pointer my-auto animate-bounce'>
                 {/* <Image src="https://links.papareact.com/qd3" layout='fill' objectFit='contain' objectPosition='left' /> */}
 
-                <Image onClick={()=> router.push('/')} src="/img/logo.png" layout='fill' objectFit='contain' objectPosition='left' />
+                <Image onClick={()=> router.push('/')} src="https://links.papareact.com/qd3" layout='fill' objectFit='contain' objectPosition='left' />
             </div>
             {/* middle */}
             <div className="flex items-center border-2 rounded-full py-2">

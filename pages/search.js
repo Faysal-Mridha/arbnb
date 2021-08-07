@@ -18,7 +18,7 @@ function Search({searchReasult}) {
             {/* Header */}
             <Header placeholder={`${location} | ${range} | ${numOfGust}`} />
             {/* main */}
-            <main className='flex max-w-[500px]'>
+            <main className='flex max-w-[900px] mx-auto'>
                 <section className='flex-grow pt-14 px-6'>
                     <p className='text-sm'>300+ Stays - {range} - for {numOfGust} guests</p>
 
